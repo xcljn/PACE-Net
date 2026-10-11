@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision
+numpy
+pandas
+scikit-image
+matplotlib
