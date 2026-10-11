@@ -121,7 +121,7 @@ instead of silently starting from random weights. Two supported options:
 
 - `--baseline-weights` with the official RadioWNet_s second-level
   checkpoint (`Trained_Model_SecondU_s.pt`) from the
-  [RadioUNet repository](https://github.com/Rice-AML/RadioUNet), placed at
+  [RadioUNet repository](https://github.com/RonLevie/RadioUNet), placed at
   `init/Trained_Model_SecondU_s.pt`; or
 - any compatible second-level checkpoint via `--init-weights init/<file>.pt`.
 
@@ -151,7 +151,7 @@ map NMSE      : 0.01829   (reference: 0.0183)
 ## Acknowledgments
 
 This implementation builds on the
-[RadioUNet](https://github.com/Rice-AML/RadioUNet) codebase and the
+[RadioUNet](https://github.com/RonLevie/RadioUNet) codebase and the
 [RadioMapSeer](https://ieee-dataport.org/open-access/radiomapseer) dataset
 by Levie et al. We thank the authors for releasing their code and data.
 

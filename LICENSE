@@ -41,7 +41,9 @@ Human-readable summary: https://creativecommons.org/licenses/by-nc/4.0/
 
 Third-party components:
   modules.py and loaders.py are derived from the RadioUNet repository
-  (https://github.com/Rice-AML/RadioUNet), which is redistributed here in
-  unmodified form (apart from comments/documentation) under its original
-  license. The RadioMapSeer dataset is subject to its own license and must
+  (https://github.com/RonLevie/RadioUNet), which is licensed under the
+  MIT License (Copyright (c) Ron Levie and contributors) and is
+  redistributed here in unmodified form (apart from comments/documentation),
+  with its copyright and license notice preserved in modules.py.
+  The RadioMapSeer dataset is subject to its own license and must
   be obtained separately; it is NOT distributed with this repository.

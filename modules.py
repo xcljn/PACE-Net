@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# 说明：本文件为 RadioUNet 官方开源代码（Rice-AML/RadioUNet）中的
-#       lib/modules.py 原文，仅在文件头补充本中文说明，网络定义逐字保持
-#       官方实现不变，作为 WUNet_v2 的第一级/第二级 U-Net 基座。
-#       WUNet_v2 通过继承本文件的 RadioWNet，仅在第二级解码器插入
-#       PointFeatureEnhanceV2 点位特征增强模块。
+# RadioWNet backbone, taken verbatim from lib/modules.py of the official
+# RadioUNet repository (https://github.com/RonLevie/RadioUNet, MIT License).
+# PACE-Net (pace_net.py) inherits RadioWNet and inserts the point feature
+# enhancement module after each skip concatenation in the second-level
+# decoder; the network definitions in this file are unmodified.
 import torch
 import torch.nn as nn
 from torchvision import models
