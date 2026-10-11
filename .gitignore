@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Experiment outputs
+weights/model_final.pt
+weights/train_log.json
+weights/config.json
+weights/alpha_final.json
+demo_outputs/
+results/
+
+# Data (downloaded separately, never committed)
+RadioMapSeer/
+
+# Large files (distributed via GitHub Releases)
+*.pt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
